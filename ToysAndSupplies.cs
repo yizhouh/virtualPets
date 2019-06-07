@@ -8,6 +8,7 @@ namespace cs_VirtualPets
         private static string[] DressUps = new string[]{"dressup1", "dressup2", "dressup3"};
         private static string[] Food = new string[]{"food1", "food2", "food3"};
 
+        //comfort pet do increase the relationship to master 
         public static void ComfortPets(IPets pet, string comfortOption)
         {
             if(comfortOption.ToLower() == "toy")
